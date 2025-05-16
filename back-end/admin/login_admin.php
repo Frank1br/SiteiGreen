@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once '../conn.php';
+require_once '../config/conn.php';
 require_once 'auth_admin.php';
 
 
