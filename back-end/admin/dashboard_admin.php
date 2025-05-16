@@ -1,4 +1,6 @@
 <?php
+require_once 'auth_admin.php';
+
 session_start();
 if (!isset($_SESSION['admin'])) {
     header("Location: ../login.php");
@@ -6,6 +8,12 @@ if (!isset($_SESSION['admin'])) {
 }
 ?>
 
+
+
+
+
+<h1>Bem-vindo ao Painel Admin</h1>
+<a href="logout_admin.php">Sair</a>
 <h2>Área Administrativa</h2>
 <ul>
     <li><a href="posts/index.php">Gerenciar Posts</a></li>
