@@ -1,0 +1,1 @@
+// Lógica de carregamento de posts via fetch

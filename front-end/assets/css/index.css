@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+   
+  body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* impede scroll lateral */
+  }
+
+/*carrossel*/
+  .carousel-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover; 
+  }
+  h2{
+    color: #096610;
+
+  }
+.img{
+  height: 400px; 
+  object-fit: cover;
+}
+  
+  .servico img {
+  width: 200px;         /* largura fixa para consistência */
+  height: 250px;        /* altura fixa */
+  object-fit: cover;    /* recorta a imagem sem distorcer */
+  border-radius: 15px;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.servico p {
+  font-weight: 500;
+}
+
+.blog img {
+    width:100%;
+    height: 350px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+.ajude-nos-section {
+  background: #53993e;
+  padding: 40px 20px;
+}
+
+.container-ajude {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.texto-ajude {
+  max-width: 400px;
+  font-size: 18px;
+}
+
+.btn-ajude {
+  background-color: white;
+  color: #096610;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.img-ajude img {
+  width: 100%;        
+  height: 300px;      
+  object-fit: cover;   
+  border-radius: 15px;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Material gratuito */
+.material-section {
+  padding: 40px 20px;
+  background: #ffffff;
+}
+
+.material-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.material-imagem img {
+  width: 100%;
+  height: 500px;
+  border-radius: 15px;
+}
+
+.formulario  {
+  background-color: #53993e;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 300px;
+  width: 100%;
+}
+
+.formulario input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.formulario button {
+  background-color: #096610;
+  color: white;
+  padding: 8px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Animações */
+
+@keyframes pulse-on-hover {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pulse-hover {
+  transition: transform 5.0s ease;
+}
+
+.pulse-hover:hover {
+  animation: pulse-on-hover 1.0s;
+}
+

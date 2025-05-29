@@ -1,0 +1,83 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  overflow-x: hidden;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+nav{
+  background-color: #096610;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 15px;
+}
+nav li a:hover{
+  background-color: #3fbe4acb;
+  border-radius: 5px;
+
+}
+
+.dropdown-menu {
+  position: absolute;
+  box-shadow: #3fbe4acb;
+  display: none;
+
+}
+  
+  .dropdown-menu a {
+  display: block;
+  color: #096610;
+}
+.dropdown:hover .dropdown-menu{
+  display:block;
+}
+.btn-login input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    font-weight: 400px;
+    border: none;
+    font-size: 17px;
+    background-color: #ecf2f7;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.btn-login input[type=submit] {
+    background:  #38c244;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.btn-login input[type=submit]{
+    background: #3fbe4acb;
+}
+.login{
+  text-align: right; 
+  color: white;   
+}
+
+
+

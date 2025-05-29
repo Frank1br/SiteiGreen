@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.post {
+    background-color: rgb(232, 248, 230);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.post p {
+    margin: 10px 0;
+}
+
+.data-post {
+    font-size: 0.5cm;
+    margin-bottom: 15px;
+    display: block;
+}
+.conteudo-lateral{
+    padding: 10px;
+}
+.conteudo-lateral h3{
+    padding: 5px
+}
+.post-destaque{
+    font-size: 0.5cm;
+    padding: 5px;
+    border-bottom: 1px solid lightgrey;
+}
+.post-destaque:last-child{
+    border: none;
+}
